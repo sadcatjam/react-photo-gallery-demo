@@ -1,0 +1,33 @@
+.author {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  margin: 10px;
+}
+
+.author-photo {
+  border-radius: 50%;
+  height: 30px;
+  margin-right: 10px;
+  width: 30px;
+}
+
+.author-name-container {
+  font-size: 12px;
+  height: 27px;
+  line-height: 14px;
+}
+
+.author-name {
+  color: #333333;
+  font-weight: bold;
+  height: 12px;
+  margin-bottom: 3px;
+}
+
+.author-username {
+  color: #8D8D8D;
+  height: 12px;
+}

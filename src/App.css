@@ -1,0 +1,10 @@
+.app {
+  background-color: white;
+  display: flex;
+  flex-flow: row wrap;
+  font-family: 'Roboto Condensed';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  justify-content: center;
+}

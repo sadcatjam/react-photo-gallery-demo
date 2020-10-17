@@ -1,0 +1,49 @@
+.view-count {
+  align-items: flex-end;
+  color: #8D8D8D;
+  display: flex;
+  font-size: 12px;
+  font-weight: bold;
+  height: 24px;
+  justify-content: flex-end;
+  line-height: 14px;
+  padding-right: 10px;
+  user-select: none;
+}
+
+.eye-symbol {
+  height: 11.47px;
+  margin-bottom: 1.53px;
+  margin-left: 5px;
+  width: 18px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .view-count {
+    height: 30px;
+    padding-right: 0;
+  }
+
+  .view-count-text {
+    margin-bottom: 6px;
+  }
+
+  .eye-symbol {
+    margin-bottom: 7.53px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .view-count {
+    height: 32px;
+    padding-right: 10px;
+  }
+
+  .view-count-text {
+    margin-bottom: 8px;
+  }
+
+  .eye-symbol {
+    margin-bottom: 9.53px;
+  }
+}

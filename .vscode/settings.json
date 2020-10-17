@@ -1,0 +1,13 @@
+{
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "typescript.format.semicolons": "remove",
+  "typescript.preferences.quoteStyle": "single",
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false
+}

@@ -1,0 +1,28 @@
+.image-container {
+  display: flex;
+  flex-direction: column;
+  height: 304px;
+  margin-bottom: 16px;
+  width: 320px;
+}
+
+.image-container:last-of-type {
+  margin-bottom: 6px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .image-container {
+    height: 380px;
+    margin-bottom: 0;
+    width: 440px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .image-container {
+    flex-basis: calc(50% - 20px);
+    height: 312px;
+    margin: 0 10px;
+    width: 320px;
+  }
+}
